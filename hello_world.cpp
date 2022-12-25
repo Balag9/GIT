@@ -1,9 +1,15 @@
 #include <iostream>
 
-using namespace std;
+#include <string>
 
-int main() {
+int main()
 
-cout<< "Hello world!"<< endl;
+{
+
+std::string str;
+
+getline(std::cin, str);
+
+std::cout << "Hello World from " << str;
 
 }
