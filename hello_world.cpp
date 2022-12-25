@@ -2,11 +2,9 @@
 
 #include <string>
 
-int
-main()
+int main()
 
 {
-
 
 std::string str;//variables
 
