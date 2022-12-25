@@ -7,10 +7,11 @@ main()
 
 {
 
-std::string str;//переменные? зачем?
 
-getline(std::cin, str);//ввод имени, для чего?
+std::string str;//variables
 
-std::cout << "Hello World from " << str;//вывод строки, надо ли?
+getline(std::cin, str);//enter your name
+
+std::cout << "Hello World from " << str;//prints intended line
 
 }
