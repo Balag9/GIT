@@ -1,4 +1,4 @@
-#include <iostream> // Поторопился, избавился от using namespace std в прошлом коммите :(
+#include <iostream>
 
 #include <string>
 
@@ -6,10 +6,10 @@ int main()
 
 {
 
-std::string str;
+std::string str;//переменные
 
-getline(std::cin, str);
+getline(std::cin, str);//ввод имени
 
-std::cout << "Hello World from " << str;
+std::cout << "Hello World from " << str;//вывод строки
 
 }
