@@ -2,15 +2,14 @@
 
 #include <string>
 
-int
-main()
+int main()
 
 {
 
-std::string str;//переменные? зачем?
+std::string str;//variables
 
-getline(std::cin, str);//ввод имени, для чего?
+getline(std::cin, str);//enter your name
 
-std::cout << "Hello World from " << str;//вывод строки, надо ли?
+std::cout << "Hello World from " << str;//prints intended line
 
 }
