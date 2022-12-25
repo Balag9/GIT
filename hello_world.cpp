@@ -7,10 +7,10 @@ main()
 
 {
 
-std::string str;//variables
+std::string str;//переменные
 
-getline(std::cin, str);//enter your name
+getline(std::cin, str);//ввод имени
 
-std::cout << "Hello World from " << str;//prints intended line
+std::cout << "Hello World from " << str;//вывод строки
 
 }
