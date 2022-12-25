@@ -7,10 +7,10 @@ main()
 
 {
 
-std::string str;//переменные
+std::string str;//переменные? зачем?
 
-getline(std::cin, str);//ввод имени
+getline(std::cin, str);//ввод имени, для чего?
 
-std::cout << "Hello World from " << str;//вывод строки
+std::cout << "Hello World from " << str;//вывод строки, надо ли?
 
 }
